@@ -135,10 +135,10 @@ while running:
 
     if rect.colliderect(ball.getRect()):
         ball.switchDirection()
-        player1score += 1
+        player1score + 1
     if rect2.colliderect(ball.getRect()):
         ball.switchDirection()
-        player2score += 1
+        player2score + 1
 
     #RENDERING
 
